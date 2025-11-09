@@ -128,7 +128,7 @@ const Index = () => {
             <div className="flex gap-4 justify-center flex-wrap">
               <Button 
                 size="lg" 
-                className="btn-3d bg-gradient-to-r from-primary to-primary/80 hover:from-primary hover:to-primary text-primary-foreground font-bold text-lg px-8"
+                className="btn-3d btn-gradient-animate bg-gradient-to-r from-primary via-accent to-primary hover:from-accent hover:via-primary hover:to-accent text-primary-foreground font-bold text-lg px-8"
               >
                 <Icon name="Rocket" className="mr-2" size={20} />
                 Читать статьи
@@ -136,7 +136,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 variant="outline"
-                className="btn-3d border-2 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground font-bold text-lg px-8"
+                className="btn-3d btn-gradient-animate border-2 border-secondary text-secondary hover:bg-gradient-to-r hover:from-secondary hover:via-accent hover:to-secondary hover:text-secondary-foreground font-bold text-lg px-8"
               >
                 <Icon name="Mail" className="mr-2" size={20} />
                 Подписаться
@@ -246,7 +246,7 @@ const Index = () => {
               />
               <Button 
                 size="lg"
-                className="btn-3d bg-gradient-to-r from-secondary to-secondary/80 hover:from-secondary hover:to-secondary text-secondary-foreground font-bold px-8 h-14"
+                className="btn-3d btn-gradient-animate bg-gradient-to-r from-secondary via-primary to-secondary hover:from-primary hover:via-secondary hover:to-primary text-secondary-foreground font-bold px-8 h-14"
               >
                 <Icon name="Send" size={20} />
               </Button>
