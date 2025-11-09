@@ -101,13 +101,13 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <h1 className="text-3xl font-black text-primary text-glow">БЛОГ</h1>
             <div className="flex gap-3">
-              <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+              <Button variant="ghost" className="btn-3d text-foreground hover:text-primary transition-colors font-bold">
                 Главная
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-secondary transition-colors">
+              <Button variant="ghost" className="btn-3d text-foreground hover:text-secondary transition-colors font-bold">
                 Категории
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-accent transition-colors">
+              <Button variant="ghost" className="btn-3d text-foreground hover:text-accent transition-colors font-bold">
                 Контакты
               </Button>
             </div>
@@ -266,10 +266,10 @@ const Index = () => {
             </div>
             <div>
               <h5 className="font-bold mb-4">Разделы</h5>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="hover:text-primary transition-colors cursor-pointer">Главная</li>
-                <li className="hover:text-secondary transition-colors cursor-pointer">Категории</li>
-                <li className="hover:text-accent transition-colors cursor-pointer">Контакты</li>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="hover:text-primary transition-all cursor-pointer inline-block px-3 py-1.5 rounded btn-3d hover:bg-primary/10">Главная</li>
+                <li className="hover:text-secondary transition-all cursor-pointer inline-block px-3 py-1.5 rounded btn-3d hover:bg-secondary/10">Категории</li>
+                <li className="hover:text-accent transition-all cursor-pointer inline-block px-3 py-1.5 rounded btn-3d hover:bg-accent/10">Контакты</li>
               </ul>
             </div>
             <div>
