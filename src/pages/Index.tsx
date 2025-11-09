@@ -180,7 +180,7 @@ const Index = () => {
             {filteredArticles.map(article => (
               <Card 
                 key={article.id} 
-                className="bg-card border-border hover:card-glow transition-all duration-300 overflow-hidden group cursor-pointer"
+                className="bg-card border-border hover:card-glow transition-all duration-300 overflow-hidden group cursor-pointer btn-3d active:scale-95"
               >
                 <div className="relative h-48 overflow-hidden">
                   <img 
