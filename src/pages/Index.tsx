@@ -117,9 +117,16 @@ const Index = () => {
 
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-secondary/10 to-accent/10 opacity-20"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-full opacity-30 pointer-events-none">
+          <img 
+            src="https://cdn.poehali.dev/projects/8410f2f2-da41-4d83-b69d-1720276a1026/files/e619f62d-7188-4cba-9984-659ceb2afaf7.jpg"
+            alt="Neon splash"
+            className="w-full h-full object-contain mix-blend-screen"
+          />
+        </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+            <h2 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,0,0.5)]">
               КРЕАТИВНЫЙ КОНТЕНТ
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
