@@ -117,11 +117,11 @@ const Index = () => {
 
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-secondary/10 to-accent/10 opacity-20"></div>
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-full opacity-30 pointer-events-none">
+        <div className="absolute inset-0 w-full h-full opacity-40 pointer-events-none">
           <img 
             src="https://cdn.poehali.dev/projects/8410f2f2-da41-4d83-b69d-1720276a1026/files/e619f62d-7188-4cba-9984-659ceb2afaf7.jpg"
             alt="Neon splash"
-            className="w-full h-full object-contain mix-blend-screen"
+            className="w-full h-full object-cover mix-blend-screen"
           />
         </div>
         <div className="container mx-auto px-4 relative z-10">
