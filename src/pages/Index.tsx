@@ -126,7 +126,7 @@ const Index = () => {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,0,0.5)]">
+            <h2 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,0,0.5)]" style={{WebkitTextStroke: '2px hsl(var(--secondary))', paintOrder: 'stroke fill'}}>
               КРЕАТИВНЫЙ КОНТЕНТ
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
